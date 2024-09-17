@@ -14,4 +14,8 @@ public class HelloController {
     public String oiAula() {
         return "oi povo, vamos testar o nosso github actions";
     }
+    @GetMapping("/tres")
+    public String tres() {
+        return "testando";
+    }
 }
