@@ -10,4 +10,8 @@ public class HelloController {
     public String helloWorld() {
         return "Ola povo, estou alterando este codigo!";
     }
+    @GetMapping("/oiAula")
+    public String oiAula() {
+        return "oi povo, vamos testar o nosso github actions";
+    }
 }
